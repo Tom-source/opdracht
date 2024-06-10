@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/650983119474062410/b6a24176840743d18943d7f93309c090/artifacts
+deleted_time: 1717846103280
+end_time: 1717846071056
+entry_point_name: ''
+experiment_id: '650983119474062410'
+lifecycle_stage: deleted
+run_id: b6a24176840743d18943d7f93309c090
+run_name: abundant-hog-563
+run_uuid: b6a24176840743d18943d7f93309c090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717846062740
+status: 3
+tags: []
+user_id: tossy

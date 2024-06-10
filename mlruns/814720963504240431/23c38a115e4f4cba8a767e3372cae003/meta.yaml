@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/814720963504240431/23c38a115e4f4cba8a767e3372cae003/artifacts
+end_time: 1717846092209
+entry_point_name: ''
+experiment_id: '814720963504240431'
+lifecycle_stage: active
+run_id: 23c38a115e4f4cba8a767e3372cae003
+run_name: likeable-shark-460
+run_uuid: 23c38a115e4f4cba8a767e3372cae003
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717846086968
+status: 3
+tags: []
+user_id: tossy
