@@ -1,0 +1,53 @@
+import csv
+
+# Define the path to the new CSV file
+csv_file_path = 'clean_ai_act_training_data.csv'
+
+# Define the CSV content
+data = [
+    ["text"],
+    ["The AI Act establishes a legal framework for Artificial Intelligence in the European Union."],
+    ["The Act categorizes AI systems based on their risk levels: unacceptable risk, high risk, limited risk, and minimal risk."],
+    ["Unacceptable risk AI systems are prohibited under the AI Act."],
+    ["High risk AI systems must comply with strict regulations and requirements before they can be marketed or used."],
+    ["The Act requires transparency for certain AI systems, ensuring users are aware they are interacting with AI."],
+    ["The AI Act promotes the development of trustworthy AI by setting clear rules and requirements."],
+    ["The AI Act applies to providers and users of AI systems within the EU and those outside the EU if the AI systems affect people within the EU."],
+    ["Providers of high-risk AI systems must implement risk management systems, ensure data governance, and maintain technical documentation."],
+    ["The AI Act encourages innovation and research in AI while ensuring the safety and fundamental rights of individuals."],
+    ["Under the AI Act, the European Commission has the authority to establish and update standards for AI systems."],
+    ["The AI Act mandates that high-risk AI systems must undergo conformity assessments before being deployed in the market."],
+    ["The Act includes specific requirements for biometric identification systems to ensure they respect fundamental rights."],
+    ["The AI Act requires high-risk AI systems to have a quality management system in place."],
+    ["Providers must ensure continuous monitoring and evaluation of high-risk AI systems under the AI Act."],
+    ["The Act stipulates that users of high-risk AI systems must receive adequate training and documentation."],
+    ["The AI Act outlines specific requirements for the transparency of AI systems that interact with humans."],
+    ["The Act encourages the development of AI sandboxes to foster innovation in a controlled environment."],
+    ["The AI Act includes provisions to protect personal data and ensure data privacy."],
+    ["The Act establishes a European Artificial Intelligence Board to oversee the implementation of the regulations."],
+    ["The AI Act requires the creation of detailed technical documentation for high-risk AI systems."],
+    ["The Act includes measures to ensure the traceability of AI systems throughout their lifecycle."],
+    ["The AI Act mandates that high-risk AI systems must be designed to minimize risks and adverse impacts."],
+    ["The Act requires providers to implement robust cybersecurity measures for high-risk AI systems."],
+    ["The AI Act includes specific requirements for AI systems used in critical infrastructure sectors."],
+    ["The Act outlines the rights of individuals to file complaints and seek remedies for violations of the AI Act."],
+    ["The AI Act provides a framework for cooperation between national authorities and the European Commission."],
+    ["The Act mandates regular audits and inspections of high-risk AI systems to ensure compliance."],
+    ["The AI Act includes provisions for the classification and reclassification of AI systems based on emerging risks."],
+    ["The Act requires high-risk AI systems to have mechanisms for human oversight and intervention."],
+    ["The AI Act aims to create a harmonized regulatory environment for AI across the European Union."],
+    ["The Act includes specific provisions for the use of AI in law enforcement and criminal justice."],
+    ["The AI Act mandates that high-risk AI systems must provide clear and understandable information to users."],
+    ["The Act outlines the penalties for non-compliance with the AI regulations, including fines and sanctions."],
+    ["The AI Act promotes the development of AI technologies that are aligned with ethical principles and human rights."],
+    ["The Act requires providers to conduct risk assessments and impact assessments for high-risk AI systems."],
+    ["The AI Act includes specific requirements for AI systems used in healthcare and medical devices."],
+    ["The Act encourages the development and use of AI systems that contribute to the public good and societal well-being."],
+]
+
+# Write the CSV content to a new file
+with open(csv_file_path, mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
+
+print(f"CSV file '{csv_file_path}' created successfully.")

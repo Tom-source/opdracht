@@ -1,14 +1,13 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to the AI Act Chatbot! 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there! 👋 We're thrilled to have you here. This chatbot is designed to provide you with comprehensive answers to all your questions about the AI Act. Whether you're looking for information on regulations, compliance, risk categories, or any other aspect of the AI Act, you're in the right place!
+
+## What is the AI Act Chatbot?
+
+This chatbot leverages advanced language models to help you navigate the intricacies of the AI Act. It is trained on data specific to the AI Act to provide accurate and detailed responses. Whether you're a student, a professional, or just curious about AI regulations, this tool will assist you in understanding the AI Act better.
 
 ## Useful Links 🔗
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+- **GitHub Repository:** Explore the code and contribute to my [AI Act Chatbot GitHub Repository](https://github.com/Tom-source/opdracht.git) 📂
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+We're excited to help you navigate the complexities of the AI Act. Happy exploring! 💻😊

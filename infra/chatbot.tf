@@ -12,8 +12,8 @@ resource "aws_apprunner_service" "chatbot" {
           HUGGINGFACEHUB_API_TOKEN = local.hf_token
         }
       }
-      image_identifier      = "public.ecr.aws/k4w0q8w8/mlops-course-ehb:1" # Ensure this is the correct image
-      image_repository_type = "ECR_PUBLIC" # Change to "ECR" if using AWS ECR
+      image_identifier      = "public.ecr.aws/z3d8h0g3/mlops-course-ehb" # Ensure this is the correct image
+      image_repository_type = "ECR" # Change to "ECR" if using AWS ECR
     }
     auto_deployments_enabled = false
   }

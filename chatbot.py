@@ -9,13 +9,13 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
 
 # Initialize the Hugging Face model endpoint
 llm = HuggingFaceEndpoint(
-    repo_id="gpt2",  # Ensure using a valid model ID
+    repo_id="TomW9/fine_tuned_gpt2",  #My own trained model based on AI act data
 )
 
 # Define the prompt template
 prompt_template = PromptTemplate(
     input_variables=['user_input'],
-    template="You are a helpful assistant. Answer the following question: {user_input}"
+    template="You are an expert in the AI act. Answer the following question: {user_input}"
 )
 
 # Initialize the LLMChain
