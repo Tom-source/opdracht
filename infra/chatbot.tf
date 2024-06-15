@@ -13,7 +13,7 @@ resource "aws_apprunner_service" "chatbot" {
         }
       }
       image_identifier      = "public.ecr.aws/z3d8h0g3/mlops-course-ehb" # Ensure this is the correct image
-      image_repository_type = "ECR" # Change to "ECR" if using AWS ECR
+      image_repository_type = "ECR"                                      # Change to "ECR" if using AWS ECR
     }
     auto_deployments_enabled = false
   }
