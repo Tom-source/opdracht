@@ -9,7 +9,7 @@ os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
 
 # Initialize the Hugging Face model endpoint
 llm = HuggingFaceEndpoint(
-    repo_id="TomW9/fine_tuned_gpt2",  #My own trained model based on AI act data
+    repo_id="TomW9/fine_tuned_gpt2",  # My own trained model based on AI act data
 )
 
 # Define the prompt template
@@ -22,10 +22,10 @@ prompt_template = PromptTemplate(
 llm_chain = LLMChain(llm=llm, prompt=prompt_template)
 
 @cl.on_message
-def main(user_message: str):
+async def main(user_message: str):
     # Generate response from the model
-    response_message = llm_chain.run(user_input=user_message)
-    cl.Message(content=response_message).send()
+    response_message = await llm_chain.run(user_input=user_message)
+    await cl.Message(content=response_message).send()
 
-#to run this script
+# To run this script
 # chainlit run chatbot.py -w in the terminal
